@@ -14,6 +14,23 @@ body{
     background-color: #000000;
 }
 
+
+.cabecalho__menu{
+    display: flex;;
+    padding: 2.3% 0 0 15%;
+    gap: 80px;
+
+}
+
+.cabecalho__menu__link{
+    text-decoration: none;
+    font-family: "Krona one", sans-serif;
+    color: greenyellow;
+    font-size: 24px;
+
+}
+
+
 .apresentacao{
     display: flex;
     align-items: center;
@@ -65,5 +82,14 @@ body{
 
 .texto-destacado{
     color: greenyellow;
+}
 
+.rodape{
+    background-color: greenyellow;
+    text-align: center;
+}
+.rodape{
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    padding: 1%;
 }
